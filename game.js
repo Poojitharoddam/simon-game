@@ -29,7 +29,7 @@ function nese(){
         uc = [];
      level++;
      $("#level-title").text("level"+level);
-     var n = Math.floor(Math.random(n)*4);
+     var n = Math.floor(Math.random()*4);
     var rcc = bc[n];
     gc.push(rcc);
     play(rcc)
